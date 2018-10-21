@@ -22,9 +22,9 @@
          <div class="form-group">
              <button class="btn btn-default" ng-click="checkQuantityOfDishes()">Check If Too Much</button>
          </div>
-         <div class="form-group message">
+         <div class="alert alert-{{ alertStyleType }}">
           <!-- Your message can go here. -->
-            {{ message }}
+            <strong>{{ message }}</strong>
          </div>
    </div>
 
